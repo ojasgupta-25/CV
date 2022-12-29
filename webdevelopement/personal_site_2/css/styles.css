@@ -1,0 +1,225 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+h1{
+    margin: 50px auto 0px auto;
+    font-family: 'Parisienne', cursive;
+    font-size: 5.655rem;
+    color: #66BFBF;
+    line-height: 2;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+    margin-top: .2%;
+    
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+    margin-bottom: 25px;
+    text-decoration: none;
+}
+.links{
+    text-decoration: none;
+}
+p{
+    line-height: 2;
+}
+.top-container{
+    background-color: #8be3c6;
+    padding-top: 0px;
+    position: relative;
+    max-height: 100%;
+    height: auto;
+    
+}
+.navbar{
+    padding-top: 2rem;
+    padding-bottom: 4.5rem;
+    padding-left: 10%;
+    padding-right: 10%;
+    
+    
+}
+.navbar-brand{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-left: 1%;
+}
+.nav-item{
+    padding: 0 10px;
+    font-size: font-size-lg;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.nav-link{
+    
+    font-family: "Montserrat-Light";
+}
+.navigation-css{
+    font-size: 1.5rem;
+}
+.montain{
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+
+.bottom_cloud{
+    position: absolute;
+    left: 10%;
+    bottom: 30%;
+}
+@media (min-width: 800px) {
+
+    .bottom_cloud{
+        position: absolute;
+        left: 16%;
+        bottom: 30%;
+    }
+  }
+
+.top_cloud{
+    position: absolute;
+    right: 20%;
+    top: 100px;
+}
+.skill-row{
+    display: inline-block;
+    text-align: left;
+    margin: 70px auto 70px auto;
+    width: 50%;
+}
+.projects-row{
+    display: inline-block;
+    text-align: left;
+    margin: 70px auto 70px auto;
+    width: 50%;
+    
+}
+.second-img{
+    float: left;
+    width: 20%;
+    margin-right: 30px;
+}
+.third-img{
+    float: right;
+    width: 20%;
+    margin-left: 30px;
+}
+hr{
+    border-style: none;
+    border-top: dotted;
+    width: 5%;
+    border-color:#EAF6F6;
+    border-width: 5px;
+    margin: 40px auto 40px auto;
+    
+}
+h6{
+    display:inline;
+}
+.first-img{
+    padding-top: 30px;
+    
+}
+.intro{
+    width: 50%;
+    margin: auto;
+}
+
+.contact-me{
+    margin-bottom: 100px ;
+}
+.contact-msg{
+    width: 40%;
+    margin: 40px auto 60px auto ;
+    
+}
+
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Merriweather', serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+
+.bottom-container{
+    background-color: #8be3c6;
+    padding: 50px;
+    position: relative;
+}  
+.footer-link{
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    color: #11999E;
+    text-decoration: none;
+}
+.copyright{
+    color: #EAF6F6;
+    font-size: 0.75rem;
+}
+.sub-hedding{
+    font-family: 'Montserrat', sans-serif;
+    color: #66BFBF;
+    font-size: smaller;
+    font-weight: normal;
+    margin-top: .2%;
+}
+.contact-me{
+    padding: 0 10%;
+}
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #11999E; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 10px 20px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
+@media (max-width: 980px) {
+
+    .fa-7x{
+        font-size: 40px;
+    }
+  }

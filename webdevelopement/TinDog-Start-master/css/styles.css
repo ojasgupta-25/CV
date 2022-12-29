@@ -1,0 +1,146 @@
+#title {
+    background-color: #ef8172;
+    color: #fff;
+}
+h1{
+    font-family: 'Montserrat';
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+
+}
+h2{
+    font-family: "Montaserrat-Bold";
+    font-weight: 900;
+    line-height: 1.5;
+    font-size: 3rem;
+}
+h3{
+    font-family: "Montserrat-Bold";
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+p{
+    color: #8f8f8f;
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+body{
+    font-family: 'Montserrat';
+    
+}
+/* Navigation bar */
+
+.navbar{
+    padding-bottom: 4.5rem;
+}
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px;
+    font-size: font-size-lg;
+}
+.nav-link{
+    
+    font-family: "Montserrat-Light";
+}
+.navigation-css{
+    font-size: 1.5rem;
+}
+.download-btn{
+    margin: 5% 3% 5% 0;
+}
+.title-img{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+    
+}
+.top-container{
+    padding: 3% 15%;
+    height: 45rem;
+    overflow: hidden;
+}
+#features{
+    margin: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+.features-logo{
+    margin: 20px 0;
+    color: #ef8172;
+}
+.features-logo:hover{
+    color: #ff4368;
+}
+.ft-box{
+    padding: 4% ;
+}
+
+#testimonials{
+    
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-img{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.price-col{
+    padding: 3% 2%;
+}
+.img-class{
+    position: relative;
+}
+#outline-features{
+    background-color: #fff;
+}
+@media (max-width: 1028px) {
+    .title-img{
+        position:static;
+        transform: rotate(0);
+    }
+    .top-container{
+        padding: 3% 15%;
+        height: auto;
+        text-align: center;
+    }
+
+}
+#cta{
+    text-align: center;
+    background-color: #ef8172;
+    padding: 4rem;
+    color: #fff;
+}
+.cta-txt{
+   
+    padding: 0% 15% 0% 15%;
+}
+.download-btnn{
+    margin: 2% 3% 0% 0;
+}

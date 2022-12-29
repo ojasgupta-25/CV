@@ -1,2 +1,0 @@
-# CV
-webded_CV
